@@ -1,0 +1,1 @@
+function e(e,t,n=0){return Math.hypot(e,t)>1e-6?Math.atan2(e,t):n}function t(t,n,r){return[t[0],e(r[0]-n[0],r[2]-n[2],t[1]),t[2]]}var n=(e,t)=>Math.atan2(Math.sin(t-e),Math.cos(t-e)),r=e=>Math.PI+(Number(e)||0);export{e as i,r as n,t as r,n as t};
