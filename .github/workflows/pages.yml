@@ -1,4 +1,4 @@
-name: Deploy Bear Tavern player
+name: Deploy Bear Tavern websites
 on:
   push:
     branches: [main]
